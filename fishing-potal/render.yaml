@@ -1,7 +1,7 @@
 services:
   - type: web
     name: fishing-portal
-    runtime: node
+    runtime: static
     rootDir: fishing-potal
     buildCommand: echo "No build required"
-    staticPublishPath: .
+
